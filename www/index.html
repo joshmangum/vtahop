@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+<!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">-->
+<meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.coRe 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-tap-highlight" content="no">
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+
+<title></title>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="lib/jquery-2.1.4.js"></script>
+<script type="text/javascript" src='lib/ractive.min.js'></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+</head>
+<body>
+<header>
+  <h1 class="title">VTA hop<span id="testRactive"></span></h1>
+</header>
+<script id='routes-tmpl' type='text/ractive'>
+  <ul class="table-view">
+  {{#routeRows}}
+    {{>route-row-tmpl}}
+  {{/routeRows}}
+  </ul>
+</script>
+<script id='route-row-tmpl' type='text/html'>
+  <li class="table-view-row open-map" on-click="open-map">
+    <div class="route-label-col">
+      <div>
+        <div class="route-name" data-stop-num="{{stopId}}" data-stop-dir="{{routeDir}}">{{routeName}}</div></div>
+    </div>
+    <div class="route-dir-col">
+      <span class="route-next-arrival">{{#times:i}}{{>min-times-tmpl}}{{/times}} mins</span><BR>
+      <span>to </span><span class="route-dir-name">{{routeDirName}}</span><BR>
+      <span>near </span><span class="route-dir-stop-loc">{{routeDirStopName}}</span><span> </span><span class="stop-dist">{{stopDist}}</span>
+    </div>
+    <div class="right-col"><span class="arrow">> </span></div>
+  </li>
+</script>
+<script id='min-times-tmpl' type='text/html'>
+{{#if livePrediction}}<sup class="min-sup radiant"><img src="img/radiant2.png"></sup>{{minutes}}{{else}}
+{{minutes}}<sup class="min-sup sched">sched</sup>{{/if}}{{#(i<(times.length-1))}}, {{/end}}
+</script>
+<script id="status-tmpl" type='text/html'>
+  {{statusStr}}
+</script>
+<div id="rcontent" class="content">
+</div>
+<div id="status">
+Loading...
+</div>
+<!--<div class="out">start log</div>-->
+</body>
+</html>

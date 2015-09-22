@@ -1,0 +1,555 @@
+{
+  "agencies": [
+    {
+      "agencyId": "vta-streetcar",
+      "agencyName": "VTA Streetcar",
+      "predictions": [
+        {}
+      ]
+    },
+    {
+      "agencyId": "vta-bus",
+      "agencyName": "VTA Bus",
+      "predictions": [
+        {
+          "routeShortName": "58",
+          "routeName": "58 - West Valley College - Alviso",
+          "routeId": "58",
+          "stopId": "2422",
+          "stopName": "Central & Owens-Corning",
+          "distanceToStop": "419.8",
+          "dest": [
+            {
+              "dir": "0",
+              "headsign": "Alviso",
+              "pred": [
+                {
+                  "time": 1441326073,
+                  "sec": 920,
+                  "min": 15,
+                  "scheduleBased": true,
+                  "trip": "1853318",
+                  "tripPattern": "58_NB01",
+                  "vehicle": "block_5841_schedBasedVehicle",
+                  "notYetDeparted": true
+                },
+                {
+                  "time": 1441326599,
+                  "sec": 1446,
+                  "min": 24,
+                  "scheduleBased": true,
+                  "trip": "1853323",
+                  "tripPattern": "58_NB01",
+                  "vehicle": "block_6075_schedBasedVehicle",
+                  "notYetDeparted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "routeShortName": "60",
+          "routeName": "60 - Winchester  TC - Gt America",
+          "routeId": "60",
+          "stopId": "2735",
+          "stopName": "Scott & Walsh",
+          "distanceToStop": "445.7",
+          "dest": [
+            {
+              "dir": "0",
+              "headsign": "Great America",
+              "pred": [
+                {
+                  "time": 1441327520,
+                  "sec": 2368,
+                  "min": 39,
+                  "scheduleBased": true,
+                  "trip": "1853420",
+                  "tripPattern": "60_NB01",
+                  "vehicle": "block_6073_schedBasedVehicle",
+                  "notYetDeparted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "routeShortName": "60",
+          "routeName": "60 - Winchester  TC - Gt America",
+          "routeId": "60",
+          "stopId": "2738",
+          "stopName": "Scott & Walsh",
+          "distanceToStop": "452.1",
+          "dest": [
+            {
+              "dir": "1",
+              "headsign": "Winchester Transit Ctr",
+              "pred": [
+                {
+                  "time": 1441327590,
+                  "sec": 2437,
+                  "min": 40,
+                  "scheduleBased": true,
+                  "trip": "1853460",
+                  "tripPattern": "60_SB01",
+                  "vehicle": "block_5742_schedBasedVehicle",
+                  "notYetDeparted": true
+                },
+                {
+                  "time": 1441328790,
+                  "sec": 3637,
+                  "min": 60,
+                  "scheduleBased": true,
+                  "trip": "1853482",
+                  "tripPattern": "60_SB01",
+                  "vehicle": "block_5574_schedBasedVehicle",
+                  "notYetDeparted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "routeShortName": "304",
+          "routeName": "304 - S. San Jose - Sunnyvale Trans Ctr",
+          "routeId": "304",
+          "stopId": "2422",
+          "stopName": "Central & Owens-Corning",
+          "distanceToStop": "419.8",
+          "dest": [
+            {
+              "dir": "1",
+              "headsign": "Limited S. San Jose",
+              "pred": [
+                {
+                  "time": 1441325400,
+                  "sec": 247,
+                  "min": 4,
+                  "scheduleBased": true,
+                  "trip": "1860517",
+                  "tripPattern": "304_SB03",
+                  "vehicle": "block_152_schedBasedVehicle",
+                  "notYetDeparted": true
+                },
+                {
+                  "time": 1441327842,
+                  "sec": 2689,
+                  "min": 44,
+                  "scheduleBased": true,
+                  "trip": "1860518",
+                  "tripPattern": "304_SB03",
+                  "vehicle": "block_144_schedBasedVehicle",
+                  "notYetDeparted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "routeShortName": "827",
+          "routeName": "827 - Yellow Line-Ace S. Santa Clara",
+          "routeId": "827",
+          "stopId": "2737",
+          "stopName": "Scott & Central",
+          "distanceToStop": "454.0",
+          "dest": [
+            {
+              "dir": "0",
+              "headsign": "Yellow Shuttle",
+              "pred": [
+                {
+                  "time": 1441325414,
+                  "sec": 261,
+                  "min": 4,
+                  "scheduleBased": true,
+                  "trip": "1862036",
+                  "tripPattern": "827_NB01",
+                  "vehicle": "block_68272_schedBasedVehicle",
+                  "notYetDeparted": true
+                },
+                {
+                  "time": 1441329179,
+                  "sec": 4026,
+                  "min": 67,
+                  "scheduleBased": true,
+                  "trip": "1862035",
+                  "tripPattern": "827_NB01",
+                  "vehicle": "block_68272_schedBasedVehicle",
+                  "notYetDeparted": true
+                }
+              ]
+            },
+            {
+              "dir": "1",
+              "pred": []
+            }
+          ]
+        },
+        {
+          "routeShortName": "58",
+          "routeName": "58 - West Valley College - Alviso",
+          "routeId": "58",
+          "stopId": "2482",
+          "stopName": "Central & Lafayette",
+          "distanceToStop": "537.5",
+          "dest": [
+            {
+              "dir": "1",
+              "headsign": "Westgate",
+              "pred": [
+                {
+                  "time": 1441329115,
+                  "sec": 3962,
+                  "min": 66,
+                  "scheduleBased": true,
+                  "trip": "1853358",
+                  "tripPattern": "58_SB02",
+                  "vehicle": "block_5342_schedBasedVehicle",
+                  "notYetDeparted": true
+                }
+              ]
+            },
+            {
+              "dir": "1",
+              "headsign": "West Valley College",
+              "pred": [
+                {
+                  "time": 1441327795,
+                  "sec": 2642,
+                  "min": 44,
+                  "scheduleBased": true,
+                  "trip": "1853355",
+                  "tripPattern": "58_SB01",
+                  "vehicle": "block_6046_schedBasedVehicle",
+                  "notYetDeparted": true
+                }
+              ]
+            },
+            {
+              "dir": "1",
+              "headsign": "Kiely & El Camino",
+              "pred": []
+            }
+          ]
+        },
+        {
+          "routeShortName": "304",
+          "routeName": "304 - S. San Jose - Sunnyvale Trans Ctr",
+          "routeId": "304",
+          "stopId": "2482",
+          "stopName": "Central & Lafayette",
+          "distanceToStop": "537.5",
+          "dest": [
+            {
+              "dir": "0",
+              "headsign": "Limited Sunnyvale",
+              "pred": []
+            }
+          ]
+        },
+        {
+          "routeShortName": "330",
+          "routeName": "330 - Almaden Valley - Tasman Drive",
+          "routeId": "330",
+          "stopId": "1926",
+          "stopName": "San Tomas & Walsh (Fs)",
+          "distanceToStop": "929.2",
+          "dest": [
+            {
+              "dir": "0",
+              "headsign": "Limited Tasman Dr",
+              "pred": []
+            }
+          ]
+        },
+        {
+          "routeShortName": "330",
+          "routeName": "330 - Almaden Valley - Tasman Drive",
+          "routeId": "330",
+          "stopId": "1969",
+          "stopName": "San Tomas & Walsh",
+          "distanceToStop": "959.7",
+          "dest": [
+            {
+              "dir": "1",
+              "headsign": "Limited Almaden",
+              "pred": [
+                {
+                  "time": 1441327721,
+                  "sec": 2568,
+                  "min": 42,
+                  "scheduleBased": true,
+                  "trip": "1861129",
+                  "tripPattern": "330_SB01",
+                  "vehicle": "block_175_schedBasedVehicle",
+                  "notYetDeparted": true
+                },
+                {
+                  "time": 1441329073,
+                  "sec": 3920,
+                  "min": 65,
+                  "scheduleBased": true,
+                  "trip": "1861130",
+                  "tripPattern": "330_SB01",
+                  "vehicle": "block_107_schedBasedVehicle",
+                  "notYetDeparted": true
+                },
+                {
+                  "time": 1441329342,
+                  "sec": 4189,
+                  "min": 69,
+                  "scheduleBased": true,
+                  "trip": "1861126",
+                  "tripPattern": "330_SB01",
+                  "vehicle": "block_6408_schedBasedVehicle",
+                  "notYetDeparted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "routeShortName": "32",
+          "routeName": "32 - Sn Antonio Shop Ctr - Sta Clara TC",
+          "routeId": "32",
+          "stopId": "2741",
+          "stopName": "Monroe & Stardust",
+          "distanceToStop": "1151.3",
+          "dest": [
+            {
+              "dir": "0",
+              "headsign": "Santa Clara Transit Ctr",
+              "pred": [
+                {
+                  "time": 1441326252,
+                  "sec": 1099,
+                  "min": 18,
+                  "trip": "1850158",
+                  "tripPattern": "32_EB01",
+                  "vehicle": "4132"
+                },
+                {
+                  "time": 1441328181,
+                  "sec": 3028,
+                  "min": 50,
+                  "scheduleBased": true,
+                  "trip": "1850157",
+                  "tripPattern": "32_EB01",
+                  "vehicle": "block_3242_schedBasedVehicle",
+                  "notYetDeparted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "routeShortName": "32",
+          "routeName": "32 - Sn Antonio Shop Ctr - Sta Clara TC",
+          "routeId": "32",
+          "stopId": "2733",
+          "stopName": "Monroe & Scott",
+          "distanceToStop": "1127.3",
+          "dest": [
+            {
+              "dir": "1",
+              "headsign": "San Antonio Shopping Ctr",
+              "pred": [
+                {
+                  "time": 1441325367,
+                  "sec": 214,
+                  "min": 3,
+                  "trip": "1850175",
+                  "tripPattern": "32_WB01",
+                  "vehicle": "4131"
+                },
+                {
+                  "time": 1441326916,
+                  "sec": 1763,
+                  "min": 29,
+                  "trip": "1850174",
+                  "tripPattern": "32_WB01",
+                  "vehicle": "4136",
+                  "notYetDeparted": true
+                },
+                {
+                  "time": 1441328716,
+                  "sec": 3563,
+                  "min": 59,
+                  "trip": "1850160",
+                  "tripPattern": "32_WB01",
+                  "vehicle": "4132",
+                  "notYetDeparted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "routeShortName": "10",
+          "routeName": "10 - Santa Clara Transit- Metro Airport",
+          "routeId": "10",
+          "stopId": "20",
+          "stopName": "El Camino & Lafayette",
+          "distanceToStop": "1920.4",
+          "dest": [
+            {
+              "dir": "1",
+              "headsign": "Santa Clara Caltrain Via Airport",
+              "pred": []
+            }
+          ]
+        },
+        {
+          "routeShortName": "22",
+          "routeName": "22 - Palo Alto - Eastridge",
+          "routeId": "22",
+          "stopId": "20",
+          "stopName": "El Camino & Lafayette",
+          "distanceToStop": "1920.4",
+          "dest": [
+            {
+              "dir": "0",
+              "headsign": "Eastridge",
+              "pred": [
+                {
+                  "time": 1441325645,
+                  "sec": 492,
+                  "min": 8,
+                  "trip": "1846590",
+                  "tripPattern": "22_EB04",
+                  "vehicle": "2330"
+                },
+                {
+                  "time": 1441326033,
+                  "sec": 881,
+                  "min": 14,
+                  "trip": "1846589",
+                  "tripPattern": "22_EB04",
+                  "vehicle": "2339"
+                },
+                {
+                  "time": 1441327190,
+                  "sec": 2037,
+                  "min": 33,
+                  "trip": "1846643",
+                  "tripPattern": "22_EB04",
+                  "vehicle": "2337"
+                },
+                {
+                  "time": 1441327652,
+                  "sec": 2499,
+                  "min": 41,
+                  "trip": "1846588",
+                  "tripPattern": "22_EB04",
+                  "vehicle": "2323"
+                },
+                {
+                  "time": 1441328291,
+                  "sec": 3138,
+                  "min": 52,
+                  "trip": "1846642",
+                  "tripPattern": "22_EB04",
+                  "vehicle": "2322"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "routeShortName": "22",
+          "routeName": "22 - Palo Alto - Eastridge",
+          "routeId": "22",
+          "stopId": "2729",
+          "stopName": "El Camino & Washington",
+          "distanceToStop": "1913.7",
+          "dest": [
+            {
+              "dir": "1",
+              "headsign": "Palo Alto",
+              "pred": [
+                {
+                  "time": 1441325353,
+                  "sec": 200,
+                  "min": 3,
+                  "trip": "1846677",
+                  "tripPattern": "22_WB03",
+                  "vehicle": "2302"
+                },
+                {
+                  "time": 1441326219,
+                  "sec": 1066,
+                  "min": 17,
+                  "trip": "1846714",
+                  "tripPattern": "22_WB03",
+                  "vehicle": "2310"
+                },
+                {
+                  "time": 1441327054,
+                  "sec": 1901,
+                  "min": 31,
+                  "trip": "1846676",
+                  "tripPattern": "22_WB03",
+                  "vehicle": "2325"
+                },
+                {
+                  "time": 1441328288,
+                  "sec": 3135,
+                  "min": 52,
+                  "scheduleBased": true,
+                  "trip": "1846709",
+                  "tripPattern": "22_WB03",
+                  "vehicle": "block_2256_schedBasedVehicle",
+                  "notYetDeparted": true
+                },
+                {
+                  "time": 1441329008,
+                  "sec": 3855,
+                  "min": 64,
+                  "trip": "1846708",
+                  "tripPattern": "22_WB03",
+                  "vehicle": "2318",
+                  "notYetDeparted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "routeShortName": "57",
+          "routeName": "57 - West Valley Coll - Great America",
+          "routeId": "57",
+          "stopId": "2520",
+          "stopName": "Bowers & Chromite",
+          "distanceToStop": "1923.3",
+          "dest": [
+            {
+              "dir": "0",
+              "headsign": "Great America",
+              "pred": []
+            }
+          ]
+        },
+        {
+          "routeShortName": "57",
+          "routeName": "57 - West Valley Coll - Great America",
+          "routeId": "57",
+          "stopId": "2539",
+          "stopName": "Bowers & Chromite",
+          "distanceToStop": "1932.3",
+          "dest": [
+            {
+              "dir": "1",
+              "headsign": "West Valley College",
+              "pred": []
+            },
+            {
+              "dir": "1",
+              "headsign": "Westgate",
+              "pred": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

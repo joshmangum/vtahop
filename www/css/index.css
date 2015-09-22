@@ -1,0 +1,181 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: text;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#fff;
+
+    font-family:'GillSans', 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:16px;
+    height:100%;
+    margin:0;
+    padding:0;
+    width:100%;
+    line-height: 24px;
+}
+
+header {
+  width:100%;
+  position:fixed;
+  top:0;
+  height: 52px;
+  background-color: white;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  z-index: 10;
+  right: 0;
+  left: 0;
+  border-bottom: 1px solid #ddd;
+}
+h1 {
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.event {
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    color:#FFFFFF;
+    font-size:12px;
+    margin:0 30px;
+    padding:2px 0;
+}
+
+
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+
+.out {
+  text-transform: none;
+  margin: 4px;
+  white-space: pre;
+  color: #000;
+}
+
+.table-view .media, .table-view .media-body {
+}
+.content {
+  margin-top: 52px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+#status {
+  margin:10px;
+  padding:10px;
+}
+
+.table-view {
+  padding-left: 0;
+  list-style: none;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  font-family: GillSans;
+  margin: 0 auto;
+}
+
+.table-view-row {
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  padding-top: 4px;
+  padding-left: 6px;
+  padding-right: 5px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #ddd;
+  white-space:nowrap;
+}
+
+.min-sup {
+  font-size: 12px;
+}
+.sched {
+  padding-left: .1em;
+}
+.radiant {
+  top: -0.4em;
+  position:relative;
+}
+.radiant > img{
+  -webkit-transform: scale(-1, 1);
+}
+.route-label-col {
+  display: -webkit-flex;
+  -webkit-flex-basis: 50px;
+  -webkit-justify-content: center;
+  -webkit-flex-direction: column;
+  padding-left: 0;
+  padding-right: 6px;
+}
+.route-name {
+  background: #438a65;
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+  border-radius: 12px;
+  line-height:30px;
+	font-size: 20px;
+  font-family: Helvetica-Bold;
+}
+
+.route-dir-col {
+  font-size: 14px;
+  line-height:21px;
+  padding-top: 4px;
+}
+.route-next-arrival {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.route-dir-name {
+}
+
+.route-dir-stop-loc {
+}
+.right-col {
+  display: -webkit-flex;
+  -webkit-flex-basis: 13px;
+  -webkit-justify-content: center;
+  -webkit-flex-direction: column;
+  margin-left: auto;
+}
+.arrow {
+  font-size: 18px;
+  font-weight: bold;
+  color: #777;
+}
+.stop-dist {
+  color: #777;
+  font-size: 11px;
+}

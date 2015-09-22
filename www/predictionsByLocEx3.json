@@ -1,0 +1,385 @@
+{
+  "agencies": [
+    {
+      "agencyId": "vta-streetcar",
+      "agencyName": "VTA Streetcar",
+      "predictions": [
+        {}
+      ]
+    },
+    {
+      "agencyId": "vta-bus",
+      "agencyName": "VTA Bus",
+      "predictions": [
+        {
+          "routeShortName": "22",
+          "routeName": "22 - Palo Alto - Eastridge",
+          "routeId": "22",
+          "stopId": "383",
+          "stopName": "El Camino & Scott",
+          "distanceToStop": "76.6",
+          "dest": [
+            {
+              "dir": "0",
+              "headsign": "Eastridge",
+              "pred": [
+                {
+                  "time": 1441386742,
+                  "sec": 522,
+                  "min": 8,
+                  "trip": "1846583",
+                  "tripPattern": "22_EB04",
+                  "vehicle": "2318"
+                },
+                {
+                  "time": 1441388218,
+                  "sec": 1998,
+                  "min": 33,
+                  "trip": "1846582",
+                  "tripPattern": "22_EB04",
+                  "vehicle": "2302"
+                },
+                {
+                  "time": 1441388685,
+                  "sec": 2465,
+                  "min": 41,
+                  "trip": "1846592",
+                  "tripPattern": "22_EB04",
+                  "vehicle": "4301"
+                },
+                {
+                  "time": 1441389232,
+                  "sec": 3012,
+                  "min": 50,
+                  "trip": "1846579",
+                  "tripPattern": "22_EB04",
+                  "vehicle": "2323"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "routeShortName": "22",
+          "routeName": "22 - Palo Alto - Eastridge",
+          "routeId": "22",
+          "stopId": "468",
+          "stopName": "El Camino & Scott",
+          "distanceToStop": "94.2",
+          "dest": [
+            {
+              "dir": "1",
+              "headsign": "Palo Alto",
+              "pred": [
+                {
+                  "time": 1441386869,
+                  "sec": 649,
+                  "min": 10,
+                  "trip": "1846667",
+                  "tripPattern": "22_WB03",
+                  "vehicle": "2332"
+                },
+                {
+                  "time": 1441387403,
+                  "sec": 1183,
+                  "min": 19,
+                  "trip": "1846723",
+                  "tripPattern": "22_WB03",
+                  "vehicle": "2301"
+                },
+                {
+                  "time": 1441388578,
+                  "sec": 2359,
+                  "min": 39,
+                  "trip": "1846666",
+                  "tripPattern": "22_WB03",
+                  "vehicle": "2339"
+                },
+                {
+                  "time": 1441389282,
+                  "sec": 3062,
+                  "min": 51,
+                  "trip": "1846665",
+                  "tripPattern": "22_WB03",
+                  "vehicle": "2336"
+                },
+                {
+                  "time": 1441389765,
+                  "sec": 3545,
+                  "min": 59,
+                  "trip": "1846664",
+                  "tripPattern": "22_WB03",
+                  "vehicle": "2327"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "routeShortName": "522",
+          "routeName": "522 - Palo Alto - Eastridge",
+          "routeId": "522",
+          "stopId": "383",
+          "stopName": "El Camino & Scott",
+          "distanceToStop": "76.6",
+          "dest": [
+            {
+              "dir": "0",
+              "headsign": "Rapid Eastridge",
+              "pred": [
+                {
+                  "time": 1441386480,
+                  "sec": 260,
+                  "min": 4,
+                  "scheduleBased": true,
+                  "trip": "1861163",
+                  "tripPattern": "522_EB02",
+                  "vehicle": "block_550_schedBasedVehicle",
+                  "notYetDeparted": true
+                },
+                {
+                  "time": 1441388588,
+                  "sec": 2368,
+                  "min": 39,
+                  "trip": "1861160",
+                  "tripPattern": "522_EB02",
+                  "vehicle": "2317"
+                },
+                {
+                  "time": 1441389360,
+                  "sec": 3140,
+                  "min": 52,
+                  "trip": "1861159",
+                  "tripPattern": "522_EB02",
+                  "vehicle": "2325",
+                  "notYetDeparted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "routeShortName": "522",
+          "routeName": "522 - Palo Alto - Eastridge",
+          "routeId": "522",
+          "stopId": "468",
+          "stopName": "El Camino & Scott",
+          "distanceToStop": "94.2",
+          "dest": [
+            {
+              "dir": "1",
+              "headsign": "Rapid Palo Alto",
+              "pred": [
+                {
+                  "time": 1441386376,
+                  "sec": 156,
+                  "min": 2,
+                  "scheduleBased": true,
+                  "trip": "1861240",
+                  "tripPattern": "522_WB01",
+                  "vehicle": "block_549_schedBasedVehicle",
+                  "notYetDeparted": true
+                },
+                {
+                  "time": 1441387176,
+                  "sec": 956,
+                  "min": 15,
+                  "trip": "1861239",
+                  "tripPattern": "522_WB01",
+                  "vehicle": "2309"
+                },
+                {
+                  "time": 1441387873,
+                  "sec": 1653,
+                  "min": 27,
+                  "trip": "1861225",
+                  "tripPattern": "522_WB01",
+                  "vehicle": "2313"
+                },
+                {
+                  "time": 1441389172,
+                  "sec": 2952,
+                  "min": 49,
+                  "scheduleBased": true,
+                  "trip": "1861224",
+                  "tripPattern": "522_WB01",
+                  "vehicle": "block_544_schedBasedVehicle",
+                  "notYetDeparted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "routeShortName": "32",
+          "routeName": "32 - Sn Antonio Shop Ctr - Sta Clara TC",
+          "routeId": "32",
+          "stopId": "1315",
+          "stopName": "Monroe & Civc Center Dr",
+          "distanceToStop": "752.3",
+          "dest": [
+            {
+              "dir": "0",
+              "headsign": "Santa Clara Transit Ctr",
+              "pred": [
+                {
+                  "time": 1441389168,
+                  "sec": 2948,
+                  "min": 49,
+                  "trip": "1850147",
+                  "tripPattern": "32_EB01",
+                  "vehicle": "4132"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "routeShortName": "32",
+          "routeName": "32 - Sn Antonio Shop Ctr - Sta Clara TC",
+          "routeId": "32",
+          "stopId": "2730",
+          "stopName": "Monroe & Warburtn",
+          "distanceToStop": "739.8",
+          "dest": [
+            {
+              "dir": "1",
+              "headsign": "San Antonio Shopping Ctr",
+              "pred": [
+                {
+                  "time": 1441387355,
+                  "sec": 1135,
+                  "min": 18,
+                  "trip": "1850169",
+                  "tripPattern": "32_WB01",
+                  "vehicle": "4136",
+                  "notYetDeparted": true
+                },
+                {
+                  "time": 1441390168,
+                  "sec": 3948,
+                  "min": 65,
+                  "trip": "1850168",
+                  "tripPattern": "32_WB01",
+                  "vehicle": "4132",
+                  "notYetDeparted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "routeShortName": "60",
+          "routeName": "60 - Winchester  TC - Gt America",
+          "routeId": "60",
+          "stopId": "2730",
+          "stopName": "Monroe & Warburtn",
+          "distanceToStop": "739.8",
+          "dest": [
+            {
+              "dir": "0",
+              "headsign": "Great America",
+              "pred": [
+                {
+                  "time": 1441388852,
+                  "sec": 2632,
+                  "min": 43,
+                  "trip": "1853431",
+                  "tripPattern": "60_NB01",
+                  "vehicle": "4121",
+                  "notYetDeparted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "routeShortName": "60",
+          "routeName": "60 - Winchester  TC - Gt America",
+          "routeId": "60",
+          "stopId": "1314",
+          "stopName": "Monroe & Warburton",
+          "distanceToStop": "734.0",
+          "dest": [
+            {
+              "dir": "1",
+              "headsign": "Winchester Transit Ctr",
+              "pred": [
+                {
+                  "time": 1441387078,
+                  "sec": 859,
+                  "min": 14,
+                  "scheduleBased": true,
+                  "trip": "1853457",
+                  "tripPattern": "60_SB01",
+                  "vehicle": "block_6074_schedBasedVehicle",
+                  "notYetDeparted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "routeShortName": "81",
+          "routeName": "81 - Vallco - San Jose State",
+          "routeId": "81",
+          "stopId": "3982",
+          "stopName": "Benton & Carmel",
+          "distanceToStop": "708.9",
+          "dest": [
+            {
+              "dir": "0",
+              "headsign": "San Jose State Univ",
+              "pred": []
+            }
+          ]
+        },
+        {
+          "routeShortName": "81",
+          "routeName": "81 - Vallco - San Jose State",
+          "routeId": "81",
+          "stopId": "4081",
+          "stopName": "Benton & Scott",
+          "distanceToStop": "692.1",
+          "dest": [
+            {
+              "dir": "1",
+              "headsign": "Vallco",
+              "pred": []
+            }
+          ]
+        },
+        {
+          "routeShortName": "330",
+          "routeName": "330 - Almaden Valley - Tasman Drive",
+          "routeId": "330",
+          "stopId": "4611",
+          "stopName": "San Tomas & El Camino",
+          "distanceToStop": "799.1",
+          "dest": [
+            {
+              "dir": "0",
+              "headsign": "Limited Tasman Dr",
+              "pred": []
+            }
+          ]
+        },
+        {
+          "routeShortName": "330",
+          "routeName": "330 - Almaden Valley - Tasman Drive",
+          "routeId": "330",
+          "stopId": "4614",
+          "stopName": "San Tomas & El Camino",
+          "distanceToStop": "823.0",
+          "dest": [
+            {
+              "dir": "1",
+              "headsign": "Limited Almaden",
+              "pred": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
