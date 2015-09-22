@@ -4,7 +4,7 @@
 
 In our scenario VTA would add iBeacons to their buses and riders would download this app to their phone.  When a rider gets on a bus, their phone senses the iBeacon and starts sending the bus's GPS location.  Then the prediction system (http://transitime.org) can add real time predictions for that bus.  The novel utility of iBeacons is that GPS sending can be turned on automatically as the rider steps on an iBeacon equipped bus, they don't even need to open the app.
 
-For riders **VTA hop** is mostly about getting info on their bus's arrival time.  But it's also got a great bonus, just by having it on their phone they can help improve VTA for everyone.
+For riders **VTA hop** is mostly about getting info on their bus's arrival time.  But it's got a great bonus, just by having it on their phone they can help improve VTA for everyone.
 
 This is an entry in VTA's Hack My Ride 2.0 hackathon http://hackmyride2.devpost.com/.
 
